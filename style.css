@@ -1,0 +1,56 @@
+.container {
+    padding: 20px;
+}
+
+
+/* This should be the first line. 1 box. */
+.box {
+    display: inline-block;
+    background-color: #F5C6D6;
+    border: 10px white solid;
+    padding: 10px;
+    height: 100px;
+    width: 91.5%;
+}
+
+/* Second Line - 4 boxes */
+.box2 {
+    display: inline-block;
+    background-color: #EE2E84;
+    border: 10px solid white;
+    padding: 10px;
+    height: 100px;
+    width: 21.7%;
+}
+
+/* Third Line - 2 boxes */
+.box3 {
+    display: inline-flex;
+    background-color: #85CFD8;
+    border: 10px white solid;
+    padding: 10px;
+    height: 100px;
+    width: 45%;
+}
+
+/* Fourth Line - will include 2 boxes, that are from different classes */
+.box4 {
+    display: inline-block;
+    background-color: #8DC63F;
+    border: 10px white solid;
+    padding: 10px;
+    height: 100px;
+    width: 60%;
+    
+}
+
+.box5 {
+    display: inline-block;
+    background-color: #E76E34;
+    border: 10px white solid;
+    padding: 10px;
+    height: 100px;
+    width: 30%;
+
+
+}
